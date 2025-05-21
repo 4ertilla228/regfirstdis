@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('image_2025-05-21_22-05-33.png'); /* Укажите путь к вашему изображению */
+    background-size: cover; /* Растягивает изображение на весь экран */
+    background-position: center; /* Центрирует изображение */
+    background-attachment: fixed; /* Фиксирует фон при прокрутке */
+    background-repeat: no-repeat; /* Отключает повторение изображения */
+    font-family: Arial, sans-serif;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.7); /* Полупрозрачный белый фон для формы */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+button {
+    transition: all 0.3s ease;
+    transform: translateY(0);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+input {
+    transition: all 0.3s ease;
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #3a7bc8;
+}
+
+p {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #666;
+}
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
